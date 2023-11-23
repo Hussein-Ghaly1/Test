@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding:0 ;
+}
+
+div {
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    direction: rtl;
+    overflow-x: hidden;
+    margin: 0;
+    width: 25%;
+    height: 100vh;
+    background-color: #DDD;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    border-bottom: 3px solid #3147F3;
+    padding: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3147F3;
+}
+
+li:hover 
+, li:hover a{
+    background-color: #3147F3 ;
+    color: white    ;
+}
+
+iframe{
+    position: absolute;
+    margin: 0px;
+    direction: ltr;
+    width:calc(100% - 25%);
+    height: 100%;   
+}
